@@ -11,5 +11,4 @@ services:
         sync: false
       - key: JWT_SECRET
         sync: false
-      - key: OPENAI_SECRET_KEY
-        sync: false
+    

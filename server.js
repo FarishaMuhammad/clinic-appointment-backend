@@ -57,7 +57,7 @@ connectDB();
 // Routes
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/appointments', require('./routes/appointmentRoutes'));
-app.use('/api/openai', require('./routes/openaiRoutes'));
+// app.use('/api/openai', require('./routes/openaiRoutes'));
 app.use('/api/users', require('./routes/userRoutes'));
 
 // Error handling middleware
